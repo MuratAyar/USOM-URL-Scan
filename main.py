@@ -5,11 +5,9 @@ import urllib.request
 import urllib
 import os
 from flask import Flask, Response, request
-
 app = Flask(__name__)
-
 URLSCANIO_API_KEY = os.getenv('URLSCANIO_API_KEY')
-SLEEP_TIME = os.getenv('SLEEP_TIME')
+SLEEP_TIME = os.getenv('SLEEP_TIME', default=10, cast=int)
 RETRY = os.getenv('RETRY')
 
 @app.route('/')
