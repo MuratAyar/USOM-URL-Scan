@@ -1,0 +1,58 @@
+{
+    "data": {
+        "ScreenShotURL": "https://urlscan.io/screenshots/f8067ff0-b4bb-400a-a633-92ad7997ae04.png",
+        "ReportURL": "https://urlscan.io/result/f8067ff0-b4bb-400a-a633-92ad7997ae04/",
+        "IP": "2606:4700:3036::ac43:b8af",
+        "Potentially_Malicious": true,
+        "Overall_Verdicts": {
+            "score": 100,
+            "categories": [
+                "phishing"
+            ],
+            "brands": [
+                "bimcell"
+            ],
+            "tags": [
+                "phishing"
+            ],
+            "malicious": true,
+            "hasVerdicts": true
+        },
+        "URLScan_Verdicts": {
+            "score": 100,
+            "categories": [
+                "phishing"
+            ],
+            "brands": [
+                {
+                    "key": "bimcell",
+                    "name": "BIMcell",
+                    "country": [
+                        "tr"
+                    ],
+                    "vertical": [
+                        "Telecommunication"
+                    ]
+                }
+            ],
+            "tags": [
+                "phishing"
+            ],
+            "malicious": true,
+            "hasVerdicts": true
+        },
+        "GeoIP_Data": {
+            "country": "US",
+            "region": "",
+            "timezone": "America/Chicago",
+            "city": "",
+            "ll": [
+                37.751,
+                -97.822
+            ],
+            "country_name": "United States",
+            "metro": 0
+        },
+        "RDNS_Data": []
+    }
+}
